@@ -33,9 +33,9 @@ class EventsIndex extends Component {
           </thead>
 
           <tbody>{this.renderEvents()}</tbody>
-
-          <Link to="/events/new">New Event</Link>
         </table>
+
+        <Link to="/events/new">New Event</Link>
       </React.Fragment>
     );
   }
